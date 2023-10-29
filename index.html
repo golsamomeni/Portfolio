@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="nav-container">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            </ul>
+        </div>
+
+        <div id="home">
+            <div>
+                <h1 class="home-title">Hi, I'm <span class="auto-type"></span></h1>
+                <h2 class="home-description">A <span id="currentAge"></span> Year Old Computer Science Student at Toronto Metropolitan University</h2>
+                <div class="home-button">
+                    <button class="generic-button" onclick=`${window.location.href="#about"}`>View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="about">
+            <div class="content-section-1">
+                <img class="content-image" src="./coffee_girl.jpeg" alt="Golsa Momeni" />
+            </div>
+
+            <div class="content-section-2">
+                <h2 class="content-section-title">About Me</h2>
+                <div class="content-section-text">
+                    <p>
+                        Hi, I'm Golsa, currently a second-year computer science student with a deep passion for
+                        various fields in computer science, including game development, VR, and Cybersecurity.
+                        My ultimate goal is to become a professional game developer and craft unique characters and gaming experiences.
+                        I possess strong programming skills in languages such as Python, C, and Java, all of which enable
+                        me to delve deeper into the world of software and game development.
+                    </p>
+                    <p>
+                    </p>
+                    <a href="./Golsa.Momeni.Resume.pdf"><button class="generic-button">View Resume</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects">
+            <h2 class="content-section-title">Projects</h2>
+
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="project-image-container">
+                        <img class="project-image-thumbnail" src="./image1.jpg" />
+                    </div>
+                    <div class="project-text-container">
+                        <h3 class="project-title">Snake Game</h3>
+                        <div class="content-section-text">
+                            <p>
+                                Designed and optimized a Snake game using
+                                OOP, inheritance, and polymorphism in Java
+                                for the optimal user interface,
+                                enabling users to view their scores
+                                on the top of the screen.
+                            </p>
+                        </div>
+                        <a href="https://youtu.be/dabnOntV0bk"><button class="generic-button">View Project</button></a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image-container">
+                        <img class="project-image-thumbnail" src="./image2.jpg" />
+                    </div>
+                    <div class="project-text-container">
+                        <h3 class="project-title">Role of ChatGPT in Academia</h3>
+                        <div class="content-section-text">
+                            <p>
+                                Conducted a survey regarding
+                                the role of ChatGPT in Academia.
+                                Utilized Excel CSV files and the NumPy
+                                library in Python to implement
+                                bar charts and diagrams to showcase
+                                the results of surveys based on
+                                categories such as Role in Academia,
+                                Program of study, and Year of study.
+                            </p>
+                        </div>
+                        <a href="https://github.com/golsamomeni/The-Role-of-ChatGPT-in-Academia"><button class="generic-button">View Project</button></a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image-container">
+                        <img class="project-image-thumbnail" src="./image3.jpg" />
+                    </div>
+                    <div class="project-text-container">
+                        <h3 class="project-title">Encyption Scheme</h3>
+                        <div class="content-section-text">
+                            <p>
+                                Implemented an permutation encryption
+                                scheme using Python, allowing the encryption
+                                and decryption of messages between
+                                two people using the encryption algorithm,
+                                decryption algorithm, and a shared key.
+                            </p>
+                        </div>
+                        <a href="https://github.com/golsamomeni/Encryption-Scheme"><button class="generic-button">View Project</button></a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image-container">
+                        <img class="project-image-thumbnail" src="./image5.jpg" />
+                    </div>
+                    <div class="project-text-container">
+                        <h3 class="project-title">Audio App Simulator</h3>
+                        <div class="content-section-text">
+                            <p>
+                                Developed an audio app simulator using 
+                                Java that manages audio content of various
+                                types (songs, audiobooks, and podcasts).
+                                Utilized OOP to add functionalities
+                                such as downloading audio content,
+                                creating playlists, playing songs,
+                                and searching content. 
+                            </p>
+                        </div>
+                        <a href="https://github.com/golsamomeni/Audio-app-simulator"><button class="generic-button">View Project</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="contact">
+            <div id="contact-rightpadding" class="content-section-2">
+                <h2 class="content-section-title">Contact Me</h2>
+                <div class="content-section-text">
+                    <p>
+                        Email: golsa.momeni@torontomu.ca 
+                        Github: https://github.com/golsamomeni 
+                        LinkedIn: https://www.linkedin.com/in/momenigolsa/
+                    </p>
+                    <p>
+                    </p>
+                </div>
+            </div>
+            <div class="content-section-1">
+                <img class="content-image" src="./anime_gamer_girl.jpeg" alt="Golsa Momeni" />
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    let currentYear = new Date().getFullYear();
+    let birthYear = 2001;
+
+    document.getElementById("currentAge").innerHTML = currentYear - birthYear;
+
+    let typed = new Typed('.auto-type', {
+        strings: ["^500Golsa Momeni^1000", "^500a Software Engineer^1000"],
+        typeSpeed: 90,
+        backSpeed: 90,
+        loop: true,
+        showCursor: false,
+    });
+</script>
+</html>
